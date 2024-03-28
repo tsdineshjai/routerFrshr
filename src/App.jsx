@@ -5,13 +5,17 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import Home from "./pages/Home";
 import Header from "./pages/Header";
+import Drill from "./pages/PDrillFirst/Drill";
+import CounterProvider from "./pages/CounterProvider";
 
 const Players = React.lazy(() => import("./pages/Players"));
 function App() {
 	return (
 		<>
 			<Header />
-
+			<CounterProvider>
+				<Drill />
+			</CounterProvider>
 			<BrowserRouter>
 				<AppBar />
 				<Routes>

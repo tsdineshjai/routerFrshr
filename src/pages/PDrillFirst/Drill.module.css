@@ -1,0 +1,9 @@
+.countContainer {
+
+
+  height: 20vh;
+  width: 30vh;
+  background-color: purple;
+  color: white;
+  padding: 1rem;
+}
