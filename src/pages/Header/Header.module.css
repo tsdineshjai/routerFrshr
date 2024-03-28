@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  background-color: rgb(143, 55, 102);
+  color: white;
+  padding: 1rem;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
